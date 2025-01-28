@@ -32,6 +32,7 @@ def predict():
         if result == 0:
             pred = "Rejected"
         else:
+            
             pred = "Approved"        
         return {"Loan_approval_status":pred}
     else:
